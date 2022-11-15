@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  background-color: rgb(62, 61, 61);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 60px;
+  font-size: 18px;
+}
+
+.InputSearch {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  position: relative;
+  margin-left: 20%;
+}
+.InputSearch input {
+  display: inline;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.InputSearch button {
+  height: 46px;
+  position: absolute;
+  padding: 0px 34px 0px 34px;
+  border: none;
+  color: white;
+  right: 4.2em;
+  top: 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: orange;
+}
+
+.contact_div {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .Navbar {
+    font-size: 12px;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+  }
+  .contact_div {
+    font-size: 9px;
+    margin: 20px;
+  }
+  .contact_div img {
+    width: 95%;
+  }
+  .InputSearch input {
+    height: 26px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .InputSearch button {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    right: 10%;
+    font-size: 16px;
+  }
+}
