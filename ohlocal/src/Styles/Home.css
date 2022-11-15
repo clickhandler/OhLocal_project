@@ -35,7 +35,7 @@
   width: 10%;
 }
 
-@media screen and (min-width: 400px) and (max-width: 720px) {
+@media screen and (min-width: 300px) and (max-width: 900px) {
   .heading {
     width: 100%;
     font-size: 9px;
