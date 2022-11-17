@@ -75,7 +75,7 @@ const Home = () => {
                     </p>
 
                     <h4 style={{ color: "lightgray", fontSize: "24px" }}>
-                      BIDS PLACED | {item.main_product.bid_placed}
+                      BIDS PLACED | <span style={{color:"lightgreen"}}>{item.main_product.bid_placed}</span> 
                     </h4>
                   </div>
                 </div>
