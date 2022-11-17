@@ -11,8 +11,10 @@
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
-  height: 60px;
-  font-size: 18px;
+  height: 40px;
+  position: fixed;
+top: 0;
+  font-size: 15px;
 }
 
 .InputSearch {
@@ -27,17 +29,17 @@
 .InputSearch input {
   display: inline;
   width: 90%;
-  height: 50px;
+  height: 35px;
   font-size: 20px;
   border-radius: 5px;
 }
 .InputSearch button {
-  height: 46px;
+  height: 30px;
   position: absolute;
-  padding: 0px 34px 0px 34px;
+  padding: 0px 10px 0px 10px;
   border: none;
   color: white;
-  right: 4.2em;
+  right: 3.3em;
   top: 2px;
   border-radius: 5px;
   font-size: 20px;
@@ -71,12 +73,12 @@
     border-radius: 5px;
   }
   .InputSearch button {
-    width: 10%;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     height: 22px;
-    right: 10%;
+    right: 11%;
     font-size: 16px;
   }
 }
